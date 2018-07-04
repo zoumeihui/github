@@ -1,0 +1,246 @@
+# ---------------------------------------------------------------
+# Site Information Settings
+# ---------------------------------------------------------------
+
+# Place your favicon.ico to /source directory.
+favicon:
+  small: /favicon.ico
+  medium: /touch-icon-iphone-precomposed.png
+  apple_touch_icon: /touch-icon-iphone-retina-precomposed.png
+  safari_pinned_tab: /touch-icon-ipad-retina-precomposed.png
+
+# Set default keywords (Use a comma to separate)
+keywords: "Meihui Zou,F2E"
+
+links_title: Links
+links_layout: inline
+links:
+  Search: https://www.baidu.com
+
+# Social links
+social:
+  GitHub: https://github.com/zoumeihui || github
+  Mylog: https://zoumeihui.github.io/2018/06/09/hello-world/
+  Resume: https://zoumeihui.github.io/2018/06/09/resume/
+  QQ: 243912063 || qq
+  Email:  243912063@qq.com || envelope
+
+social_icons:
+  enable: true
+  icons_only: false
+  transition: true
+  # Dependencies: exturl: true in Tags Settings section below.
+  # To encrypt links above use https://www.base64encode.org
+  # Example encoded link: `GitHub: aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQ= || github`
+  exturl: false
+
+# Specify the date when the site was setup
+since: 2003
+
+disqus:
+  enable: false
+
+scheme: Gemini
+
+leancloud_visitors:
+  enable: true
+  security: false
+  app_id: uOoGuWdXSYaRWVH1yqf8PhRV-gzGzoHsz
+  app_key: kizKXuyzPm6E7A3BrQRGlj7t
+
+local_search:
+  enable: false
+
+
+footer:
+  # Specify the date when the site was setup.
+  # If not defined, current year will be used.
+  #since: 2015
+
+  # Icon between year and copyright info.
+  icon:
+    # Icon name in fontawesome, see: https://fontawesome.com/v4.7.0/icons
+    # `heart` is recommended with animation in red (#ff0000).
+    name: heart
+    # If you want to animate the icon, set it to true.
+    animated: true
+    # Change the color of icon, using Hex Code.
+    color: "#f06"
+
+  # If not defined, will be used `author` from Hexo main config.
+  copyright:
+  # -------------------------------------------------------------
+  powered:
+    # Hexo link (Powered by Hexo).
+    enable: true
+    # Version info of Hexo after Hexo link (vX.X.X).
+    version: true
+
+  theme:
+    # Theme & scheme info link (Theme - NexT.scheme).
+    enable: true
+    # Version info of NexT after scheme info (vX.X.X).
+    version: true
+  # -------------------------------------------------------------
+  # Any custom text can be defined here.
+  #custom_text: Hosted by <a target="_blank" rel="external nofollow" href="https://pages.coding.me"><b>Coding Pages</b></a>
+
+# ---------------------------------------------------------------
+# SEO Settings
+# ---------------------------------------------------------------
+
+# Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
+# See: https://support.google.com/webmasters/answer/139066
+# Tips: Before you open this tag, remember set up your URL in hexo _config.yml ( ex. url: http://yourdomain.com )
+canonical: true
+
+# Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
+seo: true
+
+# If true, will add site-subtitle to index page, added in main hexo config.
+# subtitle: Subtitle
+index_with_subtitle: true
+
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+
+# When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash from link value (/archives -> archives).
+# Usage: `Key: /link/ || icon`
+# Key is the name of menu item. If translate for this menu will find in languages - this translate will be loaded; if not - Key name will be used. Key is case-senstive.
+# Value before `||` delimeter is the target link.
+# Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
+menu:
+  home: / || home
+  about: /about/ || user
+  categories: /categories/ || th
+  tags: /tags/ || tags
+  archives: /archives/ || archive
+  #schedule: /schedule/ || calendar
+  #sitemap: /sitemap.xml || sitemap
+  #commonweal: /404/ || heartbeat
+
+# Enable/Disable menu icons / item badges.
+menu_settings:
+  icons: true
+  badges: true
+
+
+# Sidebar Avatar
+# in theme directory(source/images): /images/avatar.gif
+# in site  directory(source/uploads): /uploads/avatar.gif
+#avatar: /images/avatar.gif
+
+# Table Of Contents in the Sidebar
+toc:
+  enable: true
+
+  # Automatically add list number to toc.
+  number: true
+
+  # If true, all words will placed on next lines if header width longer then sidebar width.
+  wrap: true
+
+# Creative Commons 4.0 International License.
+# http://creativecommons.org/
+# Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
+#creative_commons: by-nc-sa
+#creative_commons:
+
+sidebar:
+  # Sidebar Position, available value: left | right (only for Pisces | Gemini).
+  position: left
+
+  # Sidebar Display, available value (only for Muse | Mist):
+  #  - post    expand on posts automatically. Default.
+  #  - always  expand for all pages automatically
+  #  - hide    expand only when click on the sidebar toggle icon.
+  #  - remove  Totally remove sidebar including sidebar toggle.
+  display: post
+  #display: always
+  #display: hide
+  #display: remove
+
+  # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
+  offset: 12
+
+  # Back to top in sidebar (only for Pisces | Gemini).
+  b2t: true
+
+  # Scroll percent label in b2t button.
+  scrollpercent: true
+
+  # Enable sidebar on narrow view (only for Muse | Mist).
+  onmobile: true
+
+# Post wordcount display settings
+# Dependencies: https://github.com/theme-next/hexo-symbols-count-time
+symbols_count_time:
+  separated_meta: true
+  item_text_post: true
+  item_text_total: true
+  awl: 5
+  wpm: 200
+
+# Reward
+reward_comment: 壕，请用金钱羞辱我！
+wechatpay: /static/images/wx.png
+#alipay: /static/images/qr.png
+#bitcoin: /images/bitcoin.png
+
+# Declare license on posts
+post_copyright:
+  enable: true
+  license: <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="external nofollow" target="_blank">CC BY-NC 4.0</a>
+
+font:
+  enable: true
+
+  global:
+    # external: true will load this font family from host.
+    external: true
+    family: Monda
+  headings:
+    external: true
+    family: 'Roboto Slab'
+  logo:
+    external: true
+    family: 'Lobster Two'
+
+# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
+baidu_push: true
+
+# Note tag (bs-callout).
+note:
+  # Note tag style values:
+  #  - simple    bs-callout old alert style. Default.
+  #  - modern    bs-callout new (v2-v3) alert style.
+  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
+  #  - disabled  disable all CSS styles import of note tag.
+  style: modern
+  icons: false
+  border_radius: 3
+  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
+  # Offset also applied to label tag variables. This option can work with disabled note tag.
+  light_bg_offset: 0
+
+# Progress bar in the top during page loading.
+# Dependencies: https://github.com/theme-next/theme-next-pace
+pace: true
+# Themes list:
+#pace-theme-big-counter
+#pace-theme-bounce
+#pace-theme-barber-shop
+#pace-theme-center-atom
+#pace-theme-center-circle
+#pace-theme-center-radar
+#pace-theme-center-simple
+#pace-theme-corner-indicator
+#pace-theme-fill-left
+#pace-theme-flash
+#pace-theme-loading-bar
+#pace-theme-mac-osx
+#pace-theme-minimal
+# For example
+# pace_theme: pace-theme-center-simple
+pace_theme: pace-theme-big-counter
